@@ -8,6 +8,8 @@ Python has a lot of ugly cords it needs to be plugged into the outside world. va
 
 ## How to use
 
+Create a `.env` file an in the root of the project folder.
+
 Setup the environment variables:
 
 ```properties
