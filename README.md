@@ -1,10 +1,10 @@
-# [MJT Services](https://github.com/mjt-services) Vast.ai Container 2025
+# [MJT Services](https://github.com/mjt-services) Vast.ai CLI 2025
 
-This is a container acting as a wrapper for the vast.ai CLI.
+This is a docker container acting as a wrapper for the [vast.ai](https://vast.ai) CLI.
 
 ## Why?
 
-Python has a lot of ugly cords to keep the environment tidy. Better to just use a container to bundle those cords.
+Python has a lot of ugly cords it needs to be plugged into the outside world. vast.ai CLI has a few cords as well. Better to just use a container to bundle those cords.
 
 ## How to use
 
