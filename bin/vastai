@@ -12,8 +12,10 @@ fi
 
   
 # docker run -it --rm -d \
+  # --api-key "${VASTAI_API_KEY}"
+  # "${IMAGE_TAG}" vastai $@ 
 docker run -it --rm \
   --name "${NAME}" \
   --env-file "${SCRIPT_DIR}/../.env" \
   -v "${SCRIPT_DIR}/../home:/home/vastuser" \
-  "${IMAGE_TAG}" vastai $@
+  "${IMAGE_TAG}" vastai "$@"
